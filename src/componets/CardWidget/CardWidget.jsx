@@ -1,9 +1,13 @@
 import "./CardWidget.css";
-import React from 'react';
+import ElderlyIcon from '@mui/icons-material/Elderly';
+
 
 export const CardWidget = () => {
   return (
-    <div>Carrito de compras</div>
+    <div>
+     <span className="logo"><ElderlyIcon />
+     </span>
+    </div>
   )
 }
 

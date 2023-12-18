@@ -1,20 +1,17 @@
+import { Navbar } from '../NavBar/Navbar';
 import './Header.css';
-import CardWidget from '../CardWidget/CardWidget';
 
-const Header = () => {
-    return (
-          <header className='Header'>
-      <h1>Como no Hacer un Header</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/acerca">Acerca de</a></li>
-          <li><a href="/contacto">Contacto</a></li>
-          <li><CardWidget/></li>
-        </ul>
-      </nav>
+function Header(props) {
+  return (
+    <header><Navbar>
+      <h1>{props.titulo}</h1>
+      {""}
+      </Navbar>
     </header>
-    );
+  );
 }
 
 export default Header;
+
+
+
