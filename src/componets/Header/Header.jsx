@@ -1,5 +1,5 @@
 import './Header.css';
-import CarWidget from '../CardWidget/CardWidget';
+import CardWidget from '../CardWidget/CardWidget';
 
 const Header = () => {
     return (
@@ -10,7 +10,7 @@ const Header = () => {
           <li><a href="/">Inicio</a></li>
           <li><a href="/acerca">Acerca de</a></li>
           <li><a href="/contacto">Contacto</a></li>
-          <li><CarWidget/></li>
+          <li><CardWidget/></li>
         </ul>
       </nav>
     </header>

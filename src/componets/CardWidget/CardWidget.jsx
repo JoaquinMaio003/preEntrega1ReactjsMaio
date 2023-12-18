@@ -1,12 +1,12 @@
 import "./CardWidget.css";
-import React from 'react'
+import React from 'react';
 
 export const CardWidget = () => {
   return (
-    <div>CardWidget</div>
+    <div>Carrito de compras</div>
   )
 }
 
   
 
-  export default CarWidget;
+  export default CardWidget;
